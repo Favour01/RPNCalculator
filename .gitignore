@@ -5,3 +5,15 @@ file.txt
 Makefile.cylc
 parser.cpp
 testpaser.cpp
+a.out
+CalcYouLater
+DatumStack.o
+parser.o
+main.o
+provide_result.txt
+ReferenceCalcYouLater
+RPNCalc.o
+testDatumStack
+testDatumStack.o
+Testing_main01.cpp
+Checking testing.cpp
