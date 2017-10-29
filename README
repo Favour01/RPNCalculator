@@ -5,7 +5,7 @@ README
 10/05/2017
 ***************************************/
 
-There isn't exactly a complete program just yet, but I have the Stack and a helper function that will all be put together in the future to make a the complete program.
+The Reverse Polish Notation (RPN) calculator is similar to the built-in Unix "dc" calculator.
 
 *****************************************************************
 FILES:
