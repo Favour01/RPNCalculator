@@ -1,0 +1,50 @@
+/***************************************
+COMP 15 PROJ1 phase 2
+FAVOUR OKEREKE-MBA (fokere01)
+README
+10/05/2017
+***************************************/
+
+There isn't exactly a complete program just yet, but I have the Stack and a helper function that will all be put together in the future to make a the complete program.
+
+*****************************************************************
+FILES:
+*Datum.h: Provided by Mark Sheldon and was included in DatumStack.h.
+
+*DatumStack.h: .h file for the DatumStack class which contains member function declarations (constructor and destructor included) and private memeber variables declarations.
+
+*DatumStack.cpp: .cpp file for the DatumStack class that contains member function definations, constructor initialization, and destructor defination.
+
+*testDatumStack.cpp: .cpp file used to test the member functions of the DatumStack.cpp
+
+*parser.cpp : .cpp file that contains the parseCodeBlock() fucntion used to remove the outermost brackets on a codeblock and then return a string.
+
+*RPNCalc.h: .h file for the RPNCalc class which contains member function declarations (constructor and destructor included) and private memeber variables declarations.
+
+*RPNCalc.cpp: .cpp file for the RPNCalc class that contains member function definations, constructor initialization, and destructor defination.
+
+*testRPNCalc.cpp:  .cpp file used to test the member functions of the RPNCalc.cpp
+
+*main.cpp: .cpp file that runs the calculator
+**********************************************************************
+COMPILATION & RUN:
+compile: type make
+run: ./CalcYouLater
+
+*****************************************************************
+*DATA STRUCTUE and ALGORITHMS:
+For this assignment, I used a singly linked list to represent a stack data structure. A stack was the best for this assignment because our calculator works on a last, in first out (LIFO) bases and that's exactly the same as a stack.
+
+Algorithm for isEmpty:
+begin procedure isEmpty
+	if front is euqal to NULL
+		return true
+	else
+		return false
+end procedure
+
+*****************************************************************
+*TESTING:
+DatumStack.cpp: After the DatumStack class was writen, the .cpp file - testDatumStack, was written to make sure all the member functions of the class worked great. Refer to the .cpp file for test cases.
+
+RPNCalc.cpp: I employed the unit testing methid when writing and tetsing RPNCalc.cpp. I wrote and tested each helper function individually and for this to be done I made all the functions public. After tetsing was done, I made all functions private so the test file won't work. To run the test file, all functions must be made public again.
